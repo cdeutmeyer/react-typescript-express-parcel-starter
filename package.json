@@ -1,0 +1,28 @@
+{
+  "name": "chad-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel source\\index.tsx ",
+    "build": "parcel build source\\index.tsx --public-url /"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-react-app": "^3.1.2",
+    "parcel-bundler": "^1.9.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.5.1",
+    "styled-components": "^3.4.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "express": "^4.16.3",
+    "install": "^0.12.1",
+    "parcel-plugin-typescript": "^1.0.0",
+    "remove": "^0.1.5",
+    "typescript": "^3.0.3"
+  }
+}
